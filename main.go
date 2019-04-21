@@ -4,7 +4,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/bwmarrin/discordgo"
+	"github.com/Ardougne/discordlfm"
 	"github.com/shkh/lastfm-go/lastfm"
 	"log"
 	"os"
@@ -137,7 +137,7 @@ func check(lfm *lastfm.Api) (string, error) {
 
 	track := recent.Tracks[0]
 
-	return "♩" + track.Name + " by " + track.Artist.Name + "♩", nil
+	return track.Name + " by " + track.Artist.Name, nil
 }
 
 func fatal(args ...interface{}) {
