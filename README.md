@@ -1,6 +1,6 @@
 # Last FM -> Discord status scrobbling
 
-Sets your "game" to the last, or currently playing song played on your last.fm
+Sets your "game" to the last, or currently playing song played on your last.fm (I TOOK OUT THE STUPID MUSIC NOTE, YOURE WELCOME)
 
 ### !Important!
 
